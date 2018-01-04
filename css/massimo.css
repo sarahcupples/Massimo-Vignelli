@@ -301,6 +301,53 @@ td {
 /*----MEDIA QUERIES----*/
 
 
+/*DESKTOP*/
+
+@media (max-width: 1366px) {
+
+    .mainpic {
+        padding-top: 5em;
+    }
+    
+    .navbar ul li {
+        font-size: 1.2em;
+        margin: 9.5px;
+    }
+    
+    p {
+        font-size: 1.16em;
+    }
+    
+    blockquote {
+        font-size: 1.35em;
+    }
+    
+    h2 {
+        font-size: 1.56em;
+    }
+    
+    .title {
+        font-size: 3em;
+    }
+    
+    h3 {
+        font-size: 1.3em;
+    }
+}
+
+
+/*@media (min-width: 1919px, max-width: 1920px) {
+    
+    .mainpic {
+        padding-top: 7em;
+    }
+    
+    .navbar ul li {
+        font-size: 1.5em;
+        margin: 9.5px;
+    }
+    
+}*/
 
 /*IPAD PRO*/
 
@@ -337,8 +384,6 @@ td {
     }
   
 }
-
-
 
 /*TABLET*/
 
