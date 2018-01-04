@@ -298,7 +298,47 @@ td {
     padding-top: 1em;
 }
 
-/*----MEDIA QUERIES----/*
+/*----MEDIA QUERIES----*/
+
+
+
+/*IPAD PRO*/
+
+@media (max-width: 1024px) {
+    
+    .mainpic {
+        padding-top: 6em;
+    }
+    
+    .navbar ul li {
+        margin: 10px;
+        font-size: 1.1em;
+    }
+    
+    .title {
+        font-size: 2.3em;
+        padding-top: 2.5em;
+    }
+    
+    p {
+        font-size: 1.15em;
+    }
+    
+    blockquote {
+        font-size: 1.55em;
+    }
+    
+    hr {
+        width: 235%;
+    }
+    
+    h2 {
+        font-size: 1.55em;
+    }
+  
+}
+
+
 
 /*TABLET*/
 
@@ -571,41 +611,3 @@ align-content:center;
         font-size: 1.2em;
     }
 }
-
-
-/*DESKTOP BIG
-@media (min-width: 1367px max-width: 1920px) {
-    
-    .mainpic {
-        padding-top: 7.1em;
-    } 
-    
-   nav ul {
-    letter-spacing: 2px;
-} 
-    
-    nav ul li {
-        font-size: 1.5em;
-    }
-    
-    
-    .title {
-        font-size: 4.6em;
-    }
-    
-    h2 {
-        font-size: 2.1em;
-    }
-    
-    .intropic {
-        width:21em;
-    }
-    
-    p {
-        font-size: 1.345em;
-        padding-top: .4em;
-    }
-    
-}*/
-
-    
