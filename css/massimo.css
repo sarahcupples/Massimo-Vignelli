@@ -46,9 +46,8 @@ body {
 }
 
 .title {
+    font-size: 2.6em;
     grid-area: title;
-    justify-self: center;
-    font-size: 3.26em;
     padding: 2em 0;
 }
 
@@ -62,6 +61,7 @@ border:solid 1.5px black;
 width: 279.5%;
 color: #000;
 }
+
 
 /*----ESSAY TITLES----*/
 
@@ -201,6 +201,10 @@ cite {
 font-size: .7em;
 }
 
+.quote {
+    display:none;
+}
+
 /*-----NAVIGATION-----*/
 
 nav{
@@ -297,7 +301,7 @@ td {
 /*----MEDIA QUERIES----/*
 
 /* tablet*/
-@media (max-width: 414px) {
+@media (max-width: 35em) {
     
     body{
 align-content:center;
@@ -305,7 +309,7 @@ align-content:center;
     
     .grid {
     display: grid;
-    grid-template-columns: 5% 1fr 1fr 5%;
+    grid-template-columns: 10% 1fr 1fr 10%;
     grid-template-areas: 
         "mainpic mainpic mainpic mainpic" 
         
@@ -359,16 +363,21 @@ align-content:center;
     
     .quote {
         font-size: .8em;
+        display: block;
     }
     
     .title {
         font-size: 1.6em;
         color: white;
         background-color: black;
-        padding-top: 11.25em;
-        padding-bottom: 11.25em;
+        padding-top: 9.1em;
+        padding-bottom: 9.1em;
         padding-left: 1.45em;
         text-indent: -0.2em;
+    }
+    
+    .intro2 {
+        padding-top: 2em;
     }
     
     .intropic {
@@ -392,10 +401,6 @@ align-content:center;
     
     table {
         display:none;
-    }
-
-    section {
-        width:25.9em;
     }
     
     .socialbuttons img {
