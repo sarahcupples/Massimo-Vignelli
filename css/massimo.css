@@ -1,0 +1,444 @@
+/*-----CSS RESET-----*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+/*----MAIN CONTENT----*/
+
+body {
+        font-family: 'Helvetica';
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 18% 1fr 1.75fr 18%;
+    grid-template-areas: 
+        "mainpic mainpic mainpic mainpic" 
+        ". title title ." 
+        ". navbar navbar ." 
+        ". introtitle intromain ."
+        ". lifetitle lifemain ."
+        ". unimarktitle unimarkmain ."
+        ". americantitle americanmain ."
+        ". knolltitle knollmain ."
+        ". vigtitle vigmain ."
+        ". subwaytitle subwaymain ."
+        ". conclusiontitle conclusionmain ."
+        "bibtitle bibtitle bibtitle bibtitle"
+        "socialbuttons socialbuttons socialbuttons socialbuttons";  
+    grid-gap: 1em;
+}
+
+.mainpic {
+    grid-area: mainpic;
+    padding-top:2.4em;
+    background-color: black;
+}
+
+.bigpic {
+    width: 85%;
+    display: block;
+    margin: auto;
+}
+
+.title {
+    grid-area: title;
+    justify-self: center;
+    font-size: 3.26em;
+    padding: 2em 0;
+}
+
+.navbar {
+    grid-area: navbar;
+}
+
+hr
+{
+border:solid 1.5px black;
+width: 279.5%;
+color: #000;
+}
+
+/*----ESSAY TITLES----*/
+
+.title {
+    grid-area: title;
+}
+
+.introtitle {
+    grid-area: introtitle;
+}
+
+.lifetitle {
+    grid-area: lifetitle;
+}
+
+.unimarktitle {
+    grid-area: unimarktitle;
+}
+
+.americantitle {
+    grid-area: americantitle;
+}
+
+.knolltitle {
+    grid-area: knolltitle;
+}
+
+.vigtitle {
+    grid-area: vigtitle;
+}
+
+.subwaytitle {
+    grid-area: subwaytitle;
+}
+
+.conclusiontitle {
+    grid-area: conclusiontitle;
+}
+
+.bibtitle {
+    grid-area: bibtitle;
+    background-color: #000;
+}
+
+
+
+
+/*-----ESSAY MAIN-----*/
+
+.intromain {
+    grid-area: intromain;
+    padding-top:2.1em;
+    padding-bottom: 6.5em;
+}
+
+.lifemain {
+    grid-area: lifemain;
+    padding-top:2.1em;
+    padding-bottom: 6.5em;
+}
+
+.unimarkmain {
+    grid-area: unimarkmain;
+    padding-top:2.1em;
+    padding-bottom: 6.5em;
+}
+
+.americanmain {
+    grid-area: americanmain;
+    padding-top:2.1em;
+    padding-bottom: 6.5em;
+}
+
+.knollmain {
+    grid-area: knollmain;
+    padding-top:2.1em;
+    padding-bottom: 6.5em;
+}
+
+.vigmain {
+    grid-area: vigmain;
+    padding-top:2.1em;
+    padding-bottom: 6.5em;
+}
+
+.subwaymain {
+    grid-area: subwaymain;
+    padding-top:3.9em;
+    padding-bottom: 6.5em;
+}
+
+.conclusionmain {
+    grid-area: conclusionmain;
+    padding-top:2.1em;
+    padding-bottom: 6.5em;
+}
+
+.socialbuttons {
+    grid-area: socialbuttons;
+}
+
+
+/*-----ESSAY IMAGES-----*/
+
+.intropic {
+    width: 16.5em;
+    padding-top: .4em;
+}
+
+
+
+/*-----TEXT------*/
+
+p, li, blockquote {
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+}
+
+p {
+    font-family: 'Helvetica', sans-serif;
+}
+
+blockquote {
+    padding: 1em 0 0 0;
+    font-size: 1.45em;
+    line-height: 1.4em;
+    color:#A9A9A9;
+}
+
+blockquote p {
+    hanging-punctuation: first;
+    padding-left:1em;
+    border-left: 3px solid #ccc;
+}
+
+cite {
+font-size: .7em;
+}
+
+/*-----NAVIGATION-----*/
+
+nav{
+    position: fixed;
+    top:0;
+    left:0;
+    margin:0;
+    width:100%;
+    padding:1em 0;
+    background:black;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul li {
+    display:inline;
+    margin:20px;
+}
+
+a {
+    color:#fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color:red;
+}
+
+/*BIBLIOGRAPHY*/
+
+
+.table {
+    padding-bottom: 5.2em;
+    max-width: 75%;
+    margin: 0 auto 1em auto;
+}
+
+td {
+    color:white;
+    font-size:80%;
+    padding-bottom: .5em;
+}
+
+.bibmain {
+    padding-top: 4em;
+    font-size:2em;
+}
+
+.bibsections {
+    padding-top: 1.5em;
+    padding-bottom: .5em;
+}
+
+.fourty {
+    padding-right: 1.5em;
+}
+
+
+/*-----SOCIAL ICONS-----*/
+
+.socialbuttons a img {
+    opacity: 0.25;
+    -webkit-transition: opacity .5s ease-in-out;
+    transition: opacity .2s ease-in-out;
+}
+
+.socialbuttons a:hover img {
+    opacity: 0.9;
+}
+
+.socialbuttons li {
+    display: inline-block;
+}
+
+.socialbuttons li img {
+    width: 3.2em;
+}
+
+.socialbuttons {
+    text-align: center;
+    margin: auto;
+}
+
+.socialbuttons img {
+    margin: 1em;
+    padding-top: 1em;
+}
+
+/*----MEDIA QUERIES----/*
+
+/* tablet*/
+@media (max-width: 414px) {
+    
+    body{
+align-content:center;
+    }
+    
+    .grid {
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 5%;
+    grid-template-areas: 
+        "mainpic mainpic mainpic mainpic" 
+        
+        "title title title title" 
+        
+        ". navbar navbar ."
+        
+        ". introtitle introtitle ."
+        
+        ". intromain intromain ."
+        
+        ". lifetitle lifetitle ."
+        
+        ". lifemain lifemain ."
+        
+        ". unimarktitle unimarktitle ."
+        
+        ". unimarkmain unimarkmain ."
+        
+        ". americantitle americantitle ."
+        
+        ". americanmain americanmain ."
+        
+        ". knolltitle knolltitle ."
+        
+        ". knollmain knollmain ."
+        
+        ". vigtitle vigtitle ."
+        
+        ". vigmain vigmain ."
+        
+        ". subwaytitle subwaytitle ."
+        
+        ". subwaymain subwaymain ."
+        
+        ". conclusiontitle conclusiontitle ."
+        
+        ". conclusionmain conclusionmain ."
+        
+        ". bibtitle bibtitle ."
+        
+        ". socialbuttons socialbuttons .";  }
+    
+    .navbar{
+        display: none;
+    }
+    
+    .mainpic{
+        display:none;
+    }
+    
+    .quote {
+        font-size: .8em;
+    }
+    
+    .title {
+        font-size: 1.6em;
+        color: white;
+        background-color: black;
+        padding-top: 11.25em;
+        padding-bottom: 11.25em;
+        padding-left: 1.45em;
+        text-indent: -0.2em;
+    }
+    
+    .intropic {
+        padding-top: 1.3em;
+        margin: 0 0 -1.5em 0;
+    }
+ 
+    p {
+        width: 100%;
+    }
+    
+    hr {
+        width: 100%;
+    }
+  
+    
+    blockquote {
+        width: 80%;
+        font-size: 1.3em;
+    }
+    
+    table {
+        display:none;
+    }
+
+    section {
+        width:25.9em;
+    }
+    
+    .socialbuttons img {
+    margin: .5em;
+    padding-top: .1em;
+    }
+    
+}
+
+
+/*DESKTOP BIG
+@media (min-width: 1367px max-width: 1920px) {
+    
+    .mainpic {
+        padding-top: 7.1em;
+    } 
+    
+   nav ul {
+    letter-spacing: 2px;
+} 
+    
+    nav ul li {
+        font-size: 1.5em;
+    }
+    
+    
+    .title {
+        font-size: 4.6em;
+    }
+    
+    h2 {
+        font-size: 2.1em;
+    }
+    
+    .intropic {
+        width:21em;
+    }
+    
+    p {
+        font-size: 1.345em;
+        padding-top: .4em;
+    }
+    
+}*/
+
+    
