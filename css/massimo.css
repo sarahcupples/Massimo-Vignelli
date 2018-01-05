@@ -307,6 +307,56 @@ display:none;
 
 /*DESKTOP*/
 
+
+@media (min-width: 1919px) {
+    
+    .mainpic {
+        padding-top: 7em;
+    }
+    
+    .navbar ul li {
+        font-size: 1.55em;
+        margin: 9.5px;
+    }
+    
+    .title {
+        font-size: 3.8em;
+    }
+    
+    h2 {
+        font-size: 2.2em;
+    }
+    
+    p {
+        padding-top: .5em;
+        font-size: 1.4em;
+    }
+    
+    blockquote {
+        font-size: 1.36em;
+    }
+    
+    .intropic {
+    width: 23.5em;
+    padding-top: .4em;
+    }
+    
+    h3 {
+        font-size: 1.5em;
+    }
+    
+    .table td {
+        font-size: 1em;
+    }
+    
+     .socialbuttons li img {
+        width:4.7em;
+        padding-bottom: 1.3em;
+    } 
+    
+}
+
+
 @media (max-width: 1366px) {
 
     .mainpic {
@@ -338,20 +388,6 @@ display:none;
         font-size: 1.3em;
     }
 }
-
-
-/*@media (min-width: 1919px, max-width: 1920px) {
-    
-    .mainpic {
-        padding-top: 7em;
-    }
-    
-    .navbar ul li {
-        font-size: 1.5em;
-        margin: 9.5px;
-    }
-    
-}*/
 
 /*IPAD PRO*/
 
