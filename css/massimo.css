@@ -298,6 +298,10 @@ td {
     padding-top: 1em;
 }
 
+.bibicon {
+display:none;
+}
+
 /*----MEDIA QUERIES----*/
 
 
@@ -372,7 +376,7 @@ td {
     }
     
     blockquote {
-        font-size: 1.55em;
+        font-size: 1.3em;
     }
     
     hr {
@@ -382,6 +386,11 @@ td {
     h2 {
         font-size: 1.55em;
     }
+    
+    .socialbuttons li img {
+    width: 3.8em;
+        padding-bottom: 1.3em;
+    } 
   
 }
 
@@ -479,9 +488,18 @@ td {
         
         ". socialbuttons socialbuttons .";  }
     
-    table {
+    
+    .table {
         display:none;
     }
+    
+    .bibicon {
+        display: contents;
+     }
+    
+    .socialbuttons li img {
+    width: 3.5em;
+    } 
     
 }
 
@@ -598,6 +616,10 @@ align-content:center;
     padding-top: .1em;
     }
     
+    .bibicon {
+        display: contents;
+     }
+    
 }
 
 @media (max-width: 375px) {
@@ -618,9 +640,21 @@ align-content:center;
         width:18em;
     }
     
+    p {
+        font-size: 1.1em;
+    }
+    
     blockquote {
         font-size: 1.2em;
     }
+    
+    .bibicon {
+        display: contents;
+     }
+    
+    .socialbuttons li img {
+    width: 2.7em;
+    } 
     
 } 
 
@@ -655,4 +689,12 @@ align-content:center;
      blockquote {
         font-size: 1.2em;
     }
+    
+    .bibicon {
+        display: contents;
+     }
+    
+     .socialbuttons li img {
+    width: 2.1em;
+    } 
 }
