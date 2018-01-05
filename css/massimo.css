@@ -225,7 +225,7 @@ nav ul {
 
 nav ul li {
     display:inline;
-    margin:20px;
+    margin:10px;
 }
 
 a {
@@ -315,8 +315,8 @@ display:none;
     }
     
     .navbar ul li {
-        font-size: 1.55em;
-        margin: 9.5px;
+        font-size: 1.7em;
+        margin: 9px;
     }
     
     .title {
@@ -364,8 +364,8 @@ display:none;
     }
     
     .navbar ul li {
-        font-size: 1.2em;
-        margin: 9.5px;
+        font-size: 1.1em;
+        margin: 6px;
     }
     
     p {
