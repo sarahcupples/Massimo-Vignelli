@@ -308,6 +308,7 @@ display:none;
 /*DESKTOP*/
 
 
+
 @media (min-width: 1919px) {
     
     .mainpic {
@@ -403,7 +404,7 @@ display:none;
     }
     
     .title {
-        font-size: 2.2em;
+        font-size: 2.23em;
         padding-top: 2.5em;
     }
     
@@ -432,6 +433,8 @@ display:none;
 
 /*TABLET*/
 
+
+
 @media (max-width: 768px) {
     
      body{
@@ -447,7 +450,7 @@ display:none;
     display:inline;
     margin:12px;
     font-size: 1.1em;
-}
+   }
     
    .mainpic{
        display:none;
@@ -538,8 +541,6 @@ display:none;
     } 
     
 }
-
-
 
 
 /* MOBILE*/
